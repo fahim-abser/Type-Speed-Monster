@@ -148,9 +148,9 @@ button {
 }
 
 #histories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 35px;
 }
 
 .card {
@@ -202,11 +202,10 @@ button {
     transform: translate(20%, 50%);
 
   }
-}
 
-@media only screen and (min-width: 700px) {
-
-  .card {
-    flex-direction: row;
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
