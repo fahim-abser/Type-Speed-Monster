@@ -157,7 +157,7 @@ button {
   width: 100%;
   height: 100%;
   padding: 50px;
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -173,6 +173,7 @@ button {
 
 .margin {
   margin-top: 20px;
+  text-align: center;
 }
 
 
